@@ -22,9 +22,9 @@ const players = [
   { name: "Amara", symbol: "X" }, // First player with X symbol
   { name: "Everyone", symbol: "O" }, // Second player with O symbol
 ];
-document.getElementById("p1-name").textContent = players[0].nam;
-document.getElementById("p2-name").textContent = players[1].nam;
-document.querySelector(".square").textContent = players[0].Symbol;
+document.getElementById("p1-name").textContent = players[0].name;
+document.getElementById("p2-name").textContent = players[1].name;
+document.querySelector(".square").textContent = players[0].symbol;
 const squares = document.querySelectorAll(".square");
 squares[5].textContent = players[1].symbol;
 squares[5].style.backgroundColor = "red";
